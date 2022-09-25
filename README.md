@@ -11,3 +11,7 @@ Since then I have found a library called **Plasmo Framework** which should allow
 
 I also plan on re-doing the general design to be a more intuitive system and refactoring the code to be more extensible/expandable. Also adding some new very needed features like drag and drop re-organization capabilities. 
 
+## For more information
+
+For more info see the Documentation folder in this repo as well as the Design.md, Requirements.md and TODO.md docs
+
