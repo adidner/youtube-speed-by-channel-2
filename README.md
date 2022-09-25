@@ -3,7 +3,7 @@
 
 ## Description
 
-This is the second iteration of a chrome extension made to control the speed of youtube videos. 
+This is the second iteration of a chrome extension made to control the speed of youtube videos. Used to automatically set the speed of youtube videos based on a Channel Name or Title keyword
 
 The first iteration was written in pure HTML, CSS and JS. This was a fun and interesting endeavor but presented many challeneges that don't exist with modern state based component frameworks like React. 
 
