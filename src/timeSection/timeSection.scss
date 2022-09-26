@@ -1,0 +1,27 @@
+$base-padding-left: 10px;
+$padding-indentation-increment: 20px;
+
+.all-sections {
+    height: 20px;
+    padding: 10px 0px;
+}
+
+.time-row {
+    background-color: aqua;
+}
+
+.channel-and-title-rows {
+    padding-left: $padding-indentation-increment * 1;
+    background-color: yellow;
+}
+
+.text-row {
+    padding-left: $padding-indentation-increment * 2;
+    background-color: pink;
+}
+
+
+
+.buttons {
+
+}

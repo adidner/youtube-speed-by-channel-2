@@ -1,12 +1,20 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import { TimeSection } from "./timeSection/timeSection";
+import { fakeTimeData } from "./fakeData/fakedata";
+import "./popup.scss";
+
 
 function IndexPopup() {
 
   return (
-    <div>
-      Placeholder
+    <div className={"main-container"}>
+      {
+        fakeTimeData.map((timeSection) => {
+          return (<TimeSection timeDataObject={timeSection}/>)
+        })
+      }
     </div>
-  )
+  );
 }
 
-export default IndexPopup
+export default IndexPopup;
