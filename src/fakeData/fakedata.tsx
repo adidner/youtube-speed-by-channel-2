@@ -2,6 +2,7 @@
 
 interface timeDataInterface {
     time: number;
+    id: string;
     channels: string[];
     titles: string[];
 }
@@ -9,6 +10,7 @@ interface timeDataInterface {
 const fakeTimeData: timeDataInterface[] = [
     {
         time: 1.5,
+        id: "0",
         channels: [
             "Graham Stephen",
             "Andrei Jikh",
@@ -27,6 +29,7 @@ const fakeTimeData: timeDataInterface[] = [
     },
     {
         time: 2.35,
+        id: "1",
         channels: [
             "D&D",
             "Dungeons and Dragons",

@@ -41,4 +41,38 @@ Steps to work through
     - Maybe some user research or a 1 on 1 with a designer kind of thing
     - Maybe some youtube videos or descriptions of how this was done
     - Maybe use this as a plug tool for making a youtube channel that I made popular (still have to start establishing a youtube channel / personal brand first and spend some time learning the ropes and making it good, but then maybe that? Like share it with various youtube personalities etc)
+    - Maybe some settings stuff such that things can be more horizontal like TimeAreas arrnaged in rows instead of columns
     
+
+
+
+Thinking about draggable stuff
+
+TimeArea
+    Channels
+        el1
+        el2
+        el3
+    Titles
+        tl1
+        tl2
+        tl3
+TimeArea
+    Channels
+        el1
+        el2
+        el3
+    Titles
+        tl1
+        tl2
+        tl3
+
+Desires
+    - We want to be able to drag the TimeArea's such that we can change their order
+    - We want to be able to drag the Channel/Title blocks such that we can change their order too
+    - We want tobe able to drag and drop Channel/Title blocks across various time areas and have it reconcile the difference
+    - We want to be able to drag text string such that we can change their order
+    - We also want to be able to drag the text such that we can drag them between areas
+
+
+https://codesandbox.io/s/5v2yvpjn7n
